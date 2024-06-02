@@ -1,0 +1,5 @@
+<app-tweet-formulario (onTweetCreado)="addTweet($event)"></app-tweet-formulario>
+
+<app-tweets-lista [tweets]="tweets" (onTweetSelected)="selectedTweet = $event"></app-tweets-lista>
+
+<app-tweet-muestra [tweet]="selectedTweet"></app-tweet-muestra>

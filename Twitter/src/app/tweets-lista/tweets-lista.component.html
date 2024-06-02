@@ -1,0 +1,8 @@
+<div *ngFor="let tweet of tweets">
+    <div class="tweet-tarjeta">
+      <h3>De: {{ tweet.autor }}</h3>
+      <p>{{ tweet.texto }}</p>
+      <button (click)="seleccionarTweet(tweet)">Ver Tweet</button>
+    </div>
+  </div>
+  

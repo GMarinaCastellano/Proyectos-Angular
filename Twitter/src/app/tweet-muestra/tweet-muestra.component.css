@@ -1,0 +1,19 @@
+.tweet-detalles {
+    border: 1px solid lightgray; 
+    padding: 15px;
+    border-radius: 5px; 
+    margin-bottom: 10px; 
+    display: inline-block;
+  }
+  .tweet-detalles h2 {
+    margin-top: 0; 
+    font-size: 18px;
+  }
+  
+  .tweet-detalles p {
+    margin-bottom: 5px;
+  }
+  
+  .tweet-detalles strong {
+    font-weight: bold; 
+  }
