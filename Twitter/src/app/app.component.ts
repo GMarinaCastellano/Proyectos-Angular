@@ -20,9 +20,8 @@ import { Tweet } from './tweet';
   ]
 })
 export class AppComponent {
-  // Array para almacenar los tweets
+  // Creo un array para almacenar los tweets
   tweets: Tweet[] = [];
-  // Tweet seleccionado
   selectedTweet: Tweet | null = null;
 
   addTweet(newTweet: Tweet) {

@@ -11,10 +11,11 @@ import { Tweet } from '../tweet';
   imports: [CommonModule, FormsModule]
 })
 export class TweetFormularioComponent {
+  // Declaro los atributos del tweet vacíos
   autor: string = '';
   categoria: string = '';
   texto: string = '';
-
+  // Emito un evento con el tweet para que se reciba en el parent component
   @Output() onTweetCreado = new EventEmitter<Tweet>();
 
   crearTweet() {
