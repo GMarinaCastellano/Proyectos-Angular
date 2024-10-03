@@ -1,0 +1,9 @@
+<h2>Lista de tareas creadas: </h2>
+<ul>
+    @for (tarea of tareas; track $index) {
+      <li (click)="seleccionarTarea(tarea)">
+        {{ tarea.nombre }}
+      </li>
+    }
+</ul>
+  

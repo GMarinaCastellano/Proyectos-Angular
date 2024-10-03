@@ -1,0 +1,13 @@
+@if (tareaSeleccionada) {
+    <div >
+        <h2>Detalle de la tarea seleccionada:</h2>
+        <p><strong>Tarea:</strong> {{ tareaSeleccionada.nombre }}</p>
+        <p><strong>Prioridad:</strong> {{ tareaSeleccionada.prioridad }}</p>
+        <p><strong>Descripción:</strong> {{ tareaSeleccionada.descripcion }}</p>
+    </div>
+}
+@if (!tareaSeleccionada) {
+  <div>
+    <p>Selecciona una tarea de la lista para ver los detalles.</p>
+  </div>
+}
